@@ -1,6 +1,6 @@
 {
   "name": "rebuffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "re-buffer stream to specified chunk length",
   "main": "lib/rebuffer/index.js",
   "scripts": {
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/seedalpha/rebuffer",
   "devDependencies": {
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.1",
+    "buffertools": "^2.1.2"
   },
   "dependencies": {
     "buffers": "^0.1.1",
